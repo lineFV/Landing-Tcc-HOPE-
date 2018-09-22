@@ -1,0 +1,333 @@
+body{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgb(5, 0, 46) , red);
+    font-family: 'Gothic A1', sans-serif;
+    color: white;
+    overflow-x: hidden;
+
+}
+
+.instrucoes{
+    width: 505px;
+    height: 505px;
+    border-radius: 50%;
+    position: absolute;
+    margin: 0;
+    background-image: linear-gradient(to bottom, rgb(5, 0, 46) , red);
+    justify-content: center;
+    bottom: 18px;
+    z-index: 1;
+    left: -407px;
+}
+.instrucoes p{
+    width: 5px;
+    margin: 1px;
+    position: relative;
+    left: calc(100% - 40px);
+    top: 129px;
+}
+.instrucoes div p{
+    width: 51%;
+    margin: 0px;
+    position: relative;
+    left: 20%;
+    top: -53px;
+}
+.instrucoes div{
+    width: 400px;
+    border-top-right-radius: 50%;
+}
+.instrucoes:hover{
+    left: 7;
+    animation: 10s instrucoes linear;
+}
+#circulos{
+    display: flex;
+justify-content: center;
+align-items: 
+}
+.circulos1{
+    display: inline-block;
+    width: 365px;
+    height: 365px;
+    border-radius: 50%;
+    position: absolute;
+    margin: 0;
+    background-image: linear-gradient(to bottom, rgb(5, 0, 46) , red);
+    bottom: 18px;
+    z-index: -1;
+    left: -347px;
+}
+.circulos2 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    margin: 0;
+    background-image: linear-gradient(to bottom, rgb(5, 0, 46) , red);
+    bottom: 37vh;
+    z-index: -1;
+    left: 43vw
+}
+.circulos3{
+    display: inline-block;
+    width: 365px;
+    height: 365px;
+    border-radius: 50%;
+    position: absolute;
+    margin: 0;
+    background-image: linear-gradient(to bottom, rgb(5, 0, 46) , red);
+    top: 36px;
+    z-index: -1;
+    right: -343px;
+}
+ 
+header{
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+h1{
+    color: white;
+}
+.spotifylogo{
+    height: 90px;
+}
+.logotipo:nth-child(1){
+    width: 47px;
+    height: 48px;
+    border-radius: 50%;
+}
+header>img{
+    
+}
+nav{
+    display:none;
+   margin:0 10px;
+   position: relative;
+   right: 30px;
+}
+nav a{
+    text-decoration: none;
+   color: white;
+   font-weight: bolder;
+}
+.agradecimentos{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    align-content: space-around;
+    flex-direction: column;
+}
+.agradecimentos p{
+    width: 50vw;
+}
+.agradecimentos h1{
+    display: flex;
+    font-size: 2em;
+    width: 40vw;
+    height: 3em;;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.icones{
+    width: 25px;
+    height:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    background-color: #222326;
+    margin: 5px;
+    padding: 10px;
+    border-radius:50%;
+    
+}
+.icones img{
+    width: 25px;
+    height:25px;
+    position: relative;
+    z-index: 2;
+}
+.icones img:hover{
+    z-index: 1;
+}
+.facev{
+    /* visibility: hidden; */
+    position: relative;
+    bottom:22px;
+    z-index: 1;
+}
+.instav{
+    /* visibility: hidden; */
+    position: relative;
+    bottom:22px;
+}
+.twitv{
+    /* visibility: hidden; */
+    position: relative;
+    bottom:22px;
+}
+
+.icones img{
+    width: 22px;
+    height: 22px;
+}
+
+/* #hamburguer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border: 2px solid white;
+}
+#hamburger div{
+    width: 30px;
+    height: 10px;
+    background-color: white;
+    border-radius: 90%;
+
+} */
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+    flex-direction: column;
+    z-index: 1;
+    background: rgb(255,255,255,0.1);
+}
+
+section p:first-child {
+    font-size: 30pt;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 15vh;
+}
+section p:nth-child(2) {
+    font-size: 13pt;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    bottom: 5vh;
+}
+.botao {
+    width: 270px;
+    height: 45px;
+    background-color:rgb(5, 0, 46) ;
+    border-radius:40px;
+    color: white;
+    border: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11pt;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    position: relative;
+    bottom: 5vh;
+}
+.logotipo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:0 10px;
+    position: relative;
+    left: 0px;
+}
+.logotipo img{
+
+}
+
+.logotipo h1{
+    font-size: 13pt;
+    margin-left: 5px;
+}
+.titulo{
+    font-size: 15pt;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.titulo p{
+    width: 60vw;
+    font-size: 15pt;
+}
+footer{
+    display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+    height: 92vh;
+}
+footer img{
+    width: 50px;
+}
+
+footer a {
+display: flex;
+text-decoration: none;
+color: white    ;
+font-size:10pt;
+
+}
+
+footer h2{  
+color: gray;
+font-size:10pt;
+}
+
+.divfooter{
+ width: 40vw;
+ height: 30vh;
+}
+.divfooter:nth-child(3){
+    width: 100vw;
+    height: 30vh;
+   }
+li {
+    list-style: none;
+    margin: 15px 0;    
+}
+#div{
+        background-color: rgba(0, 0, 0);
+    }
+
+@keyframes instrucoes{
+    0% {
+        transform: rotate(0deg);
+        left: -347px;
+    }
+    10%{
+        transform: rotate(360deg);
+        left: 7px;
+    }
+    11%{
+        transform: rotate(0deg); 
+    }
+    90%{
+        transform: rotate(0deg);  
+        left: 7px;
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}

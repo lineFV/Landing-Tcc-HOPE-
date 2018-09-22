@@ -1,0 +1,26 @@
+@media (min-width: 980px){
+    .circulos1{
+       width: 565px;
+        height: 565px;
+        bottom: 94px;
+        left: -308px;
+    }
+    .circulos2  {
+           width: 300px;
+        height: 300px;
+        bottom: 11vh;
+        left: 30vw;
+    }
+    
+    
+    .circulos3{
+        width: 565px;
+    height: 565px;
+    bottom: -34vh;
+    left: 18vw;
+    }    
+    nav{
+        display: inline;
+      }
+      
+}
